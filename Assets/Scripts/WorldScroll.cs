@@ -24,11 +24,13 @@ public class WorldScroll : MonoBehaviour
         terrainTiles = new GameObject[terrainTileHorizontalCount, terrainTileVerticalCount];
     }
 
+    //Va mirando si el jugador ha cambiado de tile, en caso de que haya cambiado de tile empieza la actualización de las tiles
     private void Update()
     {
         playerTilePosition.x = (int)(playerTransform.position.x / tileSize);
         playerTilePosition.y = (int)(playerTransform.position.y / tileSize);
 
+        //Si la posición es negativa se le resta 1
         playerTilePosition.x -= playerTransform.position.x < 0 ? 1 : 0;
         playerTilePosition.y -= playerTransform.position.y < 0 ? 1 : 0;
 
@@ -43,6 +45,7 @@ public class WorldScroll : MonoBehaviour
         }
     }
 
+    //Calculamos la ubicación de las tiles (de momento solo se calculan las más lejanas para moverlas conla función UpdateTiles)
     private int CalculatePosition(float currentValue, bool horizontal)
     {
         if (horizontal)
@@ -72,6 +75,7 @@ public class WorldScroll : MonoBehaviour
         return (int)currentValue;
     }
 
+    //Movemos las tiles más lejanas al jugador hacia la dirección a la que se mueve
     private void UpdateTilesOnScreen()
     {
         for (int pov_x = -(fieldOfVisionWidth/2); pov_x <= fieldOfVisionWidth/2; pov_x++)
@@ -87,6 +91,7 @@ public class WorldScroll : MonoBehaviour
         }
     }
 
+    
     private Vector3 CalculateTilePosition(int x, int y)
     {
         return new Vector3(x * tileSize, y * tileSize, 0f);
