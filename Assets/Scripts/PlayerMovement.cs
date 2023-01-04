@@ -7,7 +7,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rigid;
-    Vector3 movementVector;
+    [HideInInspector] public Vector3 movementVector;
+    [HideInInspector] public float lastHorizontal;
+    [HideInInspector] public float lastVertical;
 
     public Joystick joystick;
 
@@ -23,6 +25,15 @@ public class PlayerMovement : MonoBehaviour
     {
         movementVector.x = joystick.Horizontal;
         movementVector.y = joystick.Vertical;
+
+        if(movementVector.x != 0)
+        {
+            lastHorizontal= movementVector.x;
+        }
+        if(movementVector.y != 0)
+        {
+            lastVertical= movementVector.y;
+        }
 
         movementVector *= speed;
 

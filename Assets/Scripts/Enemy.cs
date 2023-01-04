@@ -7,7 +7,10 @@ public class Enemy : MonoBehaviour
 {
     Transform attackPosition;
     GameObject targetGameObject;
+    PlayerStats targetPlayer;
     [SerializeField] float speed;
+    [SerializeField] int health;
+    [SerializeField] int damage = 1;
 
     Rigidbody2D rigid;
 
@@ -35,7 +38,11 @@ public class Enemy : MonoBehaviour
     //Función que llamamos cuando hace daño al jugador
     private void Damage()
     {
-        Debug.Log("2dmg dealt");
+        if(targetPlayer == null)
+        {
+            targetPlayer = targetGameObject.GetComponent<PlayerStats>();
+        }
+        targetPlayer.TakeDamage(damage);
     }
 
     //Función que llamamos cuando se crea un monstruo nuevo para darlo como objetivo al jugador
@@ -43,5 +50,14 @@ public class Enemy : MonoBehaviour
     {
         targetGameObject= target;
         attackPosition = target.transform;
+    }
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if (health < 1)
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -5,15 +5,26 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int maxHealth = 100;
+    public int currentHealth = 100;
+    [SerializeField] HealthBar hpBar;
 
-    // Update is called once per frame
-    void Update()
+    public void TakeDamage(int damage)
     {
-        
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Debug.Log("You died");
+        }
+        hpBar.SetState(currentHealth, maxHealth);
+    }
+    public void Heal (int amount)
+    {
+        if (currentHealth <= 0) { return; }
+        currentHealth += amount;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }      
     }
 }

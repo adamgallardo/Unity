@@ -24,203 +24,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: -1
+  controlID: 21
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
-  m_Name: SpriteEditorWindow
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 360, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Sprite Editor
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 363
-    y: 73
-    width: 1101
-    height: 535
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ShowAlpha: 0
-  m_MipLevel: 0
-  m_Zoom: 2.4238095
-  m_ScrollPosition: {x: 0, y: 0}
-  m_SelectedObject: {fileID: 2800000, guid: 83cfe5275da74d14b888545b8405cf0b, type: 3}
-  m_SelectedSpriteRectGUID: 00000000000000000000000000000000
-  m_LastUsedModuleTypeName: 
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 9}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1466
-    height: 939
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: -1
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
-  - {fileID: 7}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1466
-    height: 556
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: -1
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 363
-    height: 556
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 6}
-  m_Panes:
-  - {fileID: 6}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 73
-    width: 362
-    height: 535
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 44940000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0afbffff00700000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: Player
-        m_OriginalName: Player
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 28564
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 0
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SpriteEditorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 363
-    y: 0
-    width: 1103
-    height: 556
-  m_MinSize: {x: 362, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 2}
-  m_Panes:
-  - {fileID: 8}
-  - {fileID: 2}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -341,9 +146,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: -240, y: -130}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: Scene View/Camera
       index: 1
       layout: 4
@@ -500,9 +305,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 29.66848, y: 29.893515, z: -0.01337524}
+    m_Target: {x: 30.553345, y: 29.708231, z: -0.07810223}
     speed: 2
-    m_Value: {x: 29.66848, y: 29.893515, z: -0.01337524}
+    m_Value: {x: 30.553345, y: 29.708231, z: -0.07810223}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -553,9 +358,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.2035515
+    m_Target: 7.1571045
     speed: 2
-    m_Value: 2.2035515
+    m_Value: 7.1571045
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -580,6 +385,258 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1466
+    height: 939
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 22
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1466
+    height: 556
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 23
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 363
+    height: 556
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 6}
+  m_Panes:
+  - {fileID: 6}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 362
+    height: 535
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a06f0000
+      m_LastClickedID: 28576
+      m_ExpandedIDs: 0afbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 363
+    y: 0
+    width: 1103
+    height: 556
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  - {fileID: 8}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 363
+    y: 73
+    width: 1101
+    height: 535
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1101, y: 514}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -550.5
+    m_HBaseRangeMax: 550.5
+    m_VBaseRangeMin: -257
+    m_VBaseRangeMax: 257
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1101
+      height: 514
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 550.5, y: 257}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -550.5
+      y: -257
+      width: 1101
+      height: 514
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1101, y: 535}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -648,22 +705,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\adamt\Unity\SantasBeard
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c720000
-    m_LastClickedID: 29228
-    m_ExpandedIDs: 00000000987000009a70000000ca9a3b
+    m_SelectedIDs: 2e720000
+    m_LastClickedID: 29230
+    m_ExpandedIDs: 00000000947000009670000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -691,7 +748,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000987000009a700000
+    m_ExpandedIDs: 000000009470000096700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,10 +773,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44940000
-    m_LastClickedInstanceID: 37956
+    m_SelectedInstanceIDs: a06f0000
+    m_LastClickedInstanceID: 28576
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c62300005c760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -796,13 +853,12 @@ MonoBehaviour:
     height: 939
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
-  - {fileID: 15}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1872,6 +1928,302 @@ MonoBehaviour:
     currentLogHasUpdate: 1
     currentTrackingStatusHasUpdate: 1
     logEntries:
+    - commitID: eb52102910b7fa7f2a6a84e87680f21b6f5616c2
+      mergeA: 
+      mergeB: 
+      authorName: adamgallardo
+      authorEmail: adam.gallardo@estudiantat.upc.edu
+      commitEmail: adam.gallardo@estudiantat.upc.edu
+      commitName: adamgallardo
+      summary: Enemy Spawner Script created
+      description: 
+      timeString: 2022-12-30T19:58:45.000+01:00
+      commitTimeString: 2022-12-30T19:58:45.000+01:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Enemy.cs
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\Enemy.cs
+        projectPath: Assets\Scripts\Enemy.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\EnemySpawner.cs
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\EnemySpawner.cs
+        projectPath: Assets\Scripts\EnemySpawner.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\EnemySpawner.cs.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\EnemySpawner.cs.meta
+        projectPath: Assets\Scripts\EnemySpawner.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\WorldScroll.cs
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\WorldScroll.cs
+        projectPath: Assets\Scripts\WorldScroll.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\adamt\Unity\SantasBeard\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 09b319ce767e907575b5f3571b13b8284d7fee9e
+      mergeA: 
+      mergeB: 
+      authorName: adamgallardo
+      authorEmail: adam.gallardo@estudiantat.upc.edu
+      commitEmail: adam.gallardo@estudiantat.upc.edu
+      commitName: adamgallardo
+      summary: Enemy Created
+      description: 
+      timeString: 2022-12-29T19:28:59.000+01:00
+      commitTimeString: 2022-12-29T19:28:59.000+01:00
+      changes:
+      - path: Assets\Prefabs.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Enemy1.prefab
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Prefabs\Enemy1.prefab
+        projectPath: Assets\Prefabs\Enemy1.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Enemy1.prefab.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Prefabs\Enemy1.prefab.meta
+        projectPath: Assets\Prefabs\Enemy1.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Enemy.cs
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\Enemy.cs
+        projectPath: Assets\Scripts\Enemy.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Enemy.cs.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\Enemy.cs.meta
+        projectPath: Assets\Scripts\Enemy.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStats.cs
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\PlayerStats.cs
+        projectPath: Assets\Scripts\PlayerStats.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerStats.cs.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\PlayerStats.cs.meta
+        projectPath: Assets\Scripts\PlayerStats.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp.meta
+        projectPath: Assets\Sprites\LPC imp.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - pitchfork shield.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - pitchfork shield.png
+        projectPath: Assets\Sprites\LPC imp\attack - pitchfork shield.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - pitchfork shield.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - pitchfork shield.png.meta
+        projectPath: Assets\Sprites\LPC imp\attack - pitchfork shield.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - pitchfork.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - pitchfork.png
+        projectPath: Assets\Sprites\LPC imp\attack - pitchfork.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - pitchfork.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - pitchfork.png.meta
+        projectPath: Assets\Sprites\LPC imp\attack - pitchfork.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - sword shield.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - sword shield.png
+        projectPath: Assets\Sprites\LPC imp\attack - sword shield.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - sword shield.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - sword shield.png.meta
+        projectPath: Assets\Sprites\LPC imp\attack - sword shield.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - sword.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - sword.png
+        projectPath: Assets\Sprites\LPC imp\attack - sword.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - sword.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - sword.png.meta
+        projectPath: Assets\Sprites\LPC imp\attack - sword.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - vanilla.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - vanilla.png
+        projectPath: Assets\Sprites\LPC imp\attack - vanilla.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\attack - vanilla.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+          - vanilla.png.meta
+        projectPath: Assets\Sprites\LPC imp\attack - vanilla.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - pitchfork shield.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          pitchfork shield.png
+        projectPath: Assets\Sprites\LPC imp\walk - pitchfork shield.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - pitchfork shield.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          pitchfork shield.png.meta
+        projectPath: Assets\Sprites\LPC imp\walk - pitchfork shield.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - pitchfork.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          pitchfork.png
+        projectPath: Assets\Sprites\LPC imp\walk - pitchfork.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - pitchfork.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          pitchfork.png.meta
+        projectPath: Assets\Sprites\LPC imp\walk - pitchfork.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - sword shield.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          sword shield.png
+        projectPath: Assets\Sprites\LPC imp\walk - sword shield.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - sword shield.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          sword shield.png.meta
+        projectPath: Assets\Sprites\LPC imp\walk - sword shield.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - sword.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          sword.png
+        projectPath: Assets\Sprites\LPC imp\walk - sword.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - sword.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          sword.png.meta
+        projectPath: Assets\Sprites\LPC imp\walk - sword.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - vanilla.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          vanilla.png
+        projectPath: Assets\Sprites\LPC imp\walk - vanilla.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\LPC imp\walk - vanilla.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk -
+          vanilla.png.meta
+        projectPath: Assets\Sprites\LPC imp\walk - vanilla.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\goblinsheet.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\goblinsheet.png
+        projectPath: Assets\Sprites\goblinsheet.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\goblinsheet.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\goblinsheet.png.meta
+        projectPath: Assets\Sprites\goblinsheet.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\orcsheet.png
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\orcsheet.png
+        projectPath: Assets\Sprites\orcsheet.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\orcsheet.png.meta
+        fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\orcsheet.png.meta
+        projectPath: Assets\Sprites\orcsheet.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\adamt\Unity\SantasBeard\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        fullPath: C:\Users\adamt\Unity\SantasBeard\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\adamt\Unity\SantasBeard\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: c67d5f650d155cd5205485e1b5bdbd5b44eda488
       mergeA: 
       mergeB: 
@@ -3995,6 +4347,302 @@ MonoBehaviour:
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: eb52102910b7fa7f2a6a84e87680f21b6f5616c2
+        mergeA: 
+        mergeB: 
+        authorName: adamgallardo
+        authorEmail: adam.gallardo@estudiantat.upc.edu
+        commitEmail: adam.gallardo@estudiantat.upc.edu
+        commitName: adamgallardo
+        summary: Enemy Spawner Script created
+        description: 
+        timeString: 2022-12-30T19:58:45.000+01:00
+        commitTimeString: 2022-12-30T19:58:45.000+01:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Enemy.cs
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\Enemy.cs
+          projectPath: Assets\Scripts\Enemy.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\EnemySpawner.cs
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\EnemySpawner.cs
+          projectPath: Assets\Scripts\EnemySpawner.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\EnemySpawner.cs.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\EnemySpawner.cs.meta
+          projectPath: Assets\Scripts\EnemySpawner.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\WorldScroll.cs
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\WorldScroll.cs
+          projectPath: Assets\Scripts\WorldScroll.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\adamt\Unity\SantasBeard\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 09b319ce767e907575b5f3571b13b8284d7fee9e
+        mergeA: 
+        mergeB: 
+        authorName: adamgallardo
+        authorEmail: adam.gallardo@estudiantat.upc.edu
+        commitEmail: adam.gallardo@estudiantat.upc.edu
+        commitName: adamgallardo
+        summary: Enemy Created
+        description: 
+        timeString: 2022-12-29T19:28:59.000+01:00
+        commitTimeString: 2022-12-29T19:28:59.000+01:00
+        changes:
+        - path: Assets\Prefabs.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Enemy1.prefab
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Prefabs\Enemy1.prefab
+          projectPath: Assets\Prefabs\Enemy1.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Enemy1.prefab.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Prefabs\Enemy1.prefab.meta
+          projectPath: Assets\Prefabs\Enemy1.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Enemy.cs
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\Enemy.cs
+          projectPath: Assets\Scripts\Enemy.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Enemy.cs.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\Enemy.cs.meta
+          projectPath: Assets\Scripts\Enemy.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStats.cs
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\PlayerStats.cs
+          projectPath: Assets\Scripts\PlayerStats.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerStats.cs.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Scripts\PlayerStats.cs.meta
+          projectPath: Assets\Scripts\PlayerStats.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp.meta
+          projectPath: Assets\Sprites\LPC imp.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - pitchfork shield.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - pitchfork shield.png
+          projectPath: Assets\Sprites\LPC imp\attack - pitchfork shield.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - pitchfork shield.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - pitchfork shield.png.meta
+          projectPath: Assets\Sprites\LPC imp\attack - pitchfork shield.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - pitchfork.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - pitchfork.png
+          projectPath: Assets\Sprites\LPC imp\attack - pitchfork.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - pitchfork.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - pitchfork.png.meta
+          projectPath: Assets\Sprites\LPC imp\attack - pitchfork.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - sword shield.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - sword shield.png
+          projectPath: Assets\Sprites\LPC imp\attack - sword shield.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - sword shield.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - sword shield.png.meta
+          projectPath: Assets\Sprites\LPC imp\attack - sword shield.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - sword.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - sword.png
+          projectPath: Assets\Sprites\LPC imp\attack - sword.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - sword.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - sword.png.meta
+          projectPath: Assets\Sprites\LPC imp\attack - sword.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - vanilla.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - vanilla.png
+          projectPath: Assets\Sprites\LPC imp\attack - vanilla.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\attack - vanilla.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\attack
+            - vanilla.png.meta
+          projectPath: Assets\Sprites\LPC imp\attack - vanilla.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - pitchfork shield.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - pitchfork shield.png
+          projectPath: Assets\Sprites\LPC imp\walk - pitchfork shield.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - pitchfork shield.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - pitchfork shield.png.meta
+          projectPath: Assets\Sprites\LPC imp\walk - pitchfork shield.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - pitchfork.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - pitchfork.png
+          projectPath: Assets\Sprites\LPC imp\walk - pitchfork.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - pitchfork.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - pitchfork.png.meta
+          projectPath: Assets\Sprites\LPC imp\walk - pitchfork.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - sword shield.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - sword shield.png
+          projectPath: Assets\Sprites\LPC imp\walk - sword shield.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - sword shield.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - sword shield.png.meta
+          projectPath: Assets\Sprites\LPC imp\walk - sword shield.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - sword.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - sword.png
+          projectPath: Assets\Sprites\LPC imp\walk - sword.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - sword.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - sword.png.meta
+          projectPath: Assets\Sprites\LPC imp\walk - sword.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - vanilla.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - vanilla.png
+          projectPath: Assets\Sprites\LPC imp\walk - vanilla.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\LPC imp\walk - vanilla.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\LPC imp\walk
+            - vanilla.png.meta
+          projectPath: Assets\Sprites\LPC imp\walk - vanilla.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\goblinsheet.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\goblinsheet.png
+          projectPath: Assets\Sprites\goblinsheet.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\goblinsheet.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\goblinsheet.png.meta
+          projectPath: Assets\Sprites\goblinsheet.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\orcsheet.png
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\orcsheet.png
+          projectPath: Assets\Sprites\orcsheet.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\orcsheet.png.meta
+          fullPath: C:\Users\adamt\Unity\SantasBeard\Assets\Sprites\orcsheet.png.meta
+          projectPath: Assets\Sprites\orcsheet.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\adamt\Unity\SantasBeard\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\adamt\Unity\SantasBeard\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\adamt\Unity\SantasBeard\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: c67d5f650d155cd5205485e1b5bdbd5b44eda488
         mergeA: 
         mergeB: 
@@ -15234,7 +15882,7 @@ MonoBehaviour:
     updatedTimeString: 2022-12-29T17:52:29.561+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-12-29T17:52:32.189+01:00
+    updatedTimeString: 2023-01-01T19:14:16.389+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
     updatedTimeString: 2022-12-29T17:52:32.159+01:00
@@ -15255,104 +15903,12 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.99888146
+  repositoryProgressValue: 1
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1466
-    y: 73
-    width: 453
-    height: 918
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 453, y: 897}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -226.5
-    m_HBaseRangeMax: 226.5
-    m_VBaseRangeMin: -448.5
-    m_VBaseRangeMax: 448.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 453
-      height: 897
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 226.5, y: 448.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -226.5
-      y: -448.5
-      width: 453
-      height: 897
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 453, y: 918}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000001000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
