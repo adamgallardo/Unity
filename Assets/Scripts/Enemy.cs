@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] int health;
     [SerializeField] int damage = 1;
+    [SerializeField] int xpDrop = 10;
 
     Rigidbody2D rigid;
 
@@ -57,6 +58,7 @@ public class Enemy : MonoBehaviour
 
         if (health < 1)
         {
+            targetGameObject.GetComponent<XPManager>().GainXP(xpDrop);
             Destroy(gameObject);
         }
     }

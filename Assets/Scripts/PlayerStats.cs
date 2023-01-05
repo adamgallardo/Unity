@@ -9,6 +9,11 @@ public class PlayerStats : MonoBehaviour
     public int currentHealth = 100;
     [SerializeField] HealthBar hpBar;
 
+    private void Start()
+    {
+        hpBar.SetState(currentHealth, maxHealth);
+    }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -25,6 +30,7 @@ public class PlayerStats : MonoBehaviour
         if (currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
-        }      
+        }
+        hpBar.SetState(currentHealth, maxHealth);
     }
 }

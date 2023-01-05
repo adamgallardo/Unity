@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6603370775956310860}
   - component: {fileID: 6603370775956310863}
   - component: {fileID: 6603370775956310862}
+  - component: {fileID: -7733679048550500335}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -147,4 +148,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  health: 3
+  health: 1
+  damage: 1
+--- !u!114 &-7733679048550500335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603370775956310707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c991ace5f2af124eaafc88dc95a9c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookie: {fileID: 9216197259822788462, guid: 61f17169533684a4890f68ab1bee1a1e, type: 3}
+  chance: 0.2
