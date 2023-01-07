@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rigid;
     [HideInInspector] public Vector3 movementVector;
-    [HideInInspector] public float lastHorizontal;
+ public float lastHorizontal;
     [HideInInspector] public float lastVertical;
 
     public Joystick joystick;
@@ -26,14 +26,23 @@ public class PlayerMovement : MonoBehaviour
         movementVector.x = joystick.Horizontal;
         movementVector.y = joystick.Vertical;
 
-        if(movementVector.x != 0)
+        if(movementVector.x >= 0)
         {
-            lastHorizontal= movementVector.x;
+            lastHorizontal= 1;
         }
-        if(movementVector.y != 0)
+        if (movementVector.x < 0)
         {
-            lastVertical= movementVector.y;
+            lastHorizontal = -1;
         }
+        if (movementVector.y >= 0)
+        {
+            lastVertical= 1;
+        }
+        if (movementVector.y < 0)
+        {
+            lastVertical = -1;
+        }
+
 
         movementVector *= speed;
 
