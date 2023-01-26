@@ -10,13 +10,16 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float spawnerTimer;
 
     float timer;
-
+    float totaltime;
     [SerializeField] Vector2 spawnArea;
     [SerializeField] GameObject player;
+    [SerializeField] GameObject enemy2;
+    [SerializeField] float timerForEnemy2;
 
     //Cuando el timer se agota se llama a la función SpawnEnemy y se reinicia el timer
     void Update()
     {
+        totaltime += Time.deltaTime;
         timer -= Time.deltaTime;
         if (timer < 0f)
         {
@@ -35,6 +38,12 @@ public class EnemySpawner : MonoBehaviour
         GameObject newEnemy = Instantiate(enemy1);
         newEnemy.transform.position = position;
         newEnemy.GetComponent<Enemy>().SetTarget(player);
+        if (timerForEnemy2 < totaltime)
+        {
+            GameObject newDiffEnemy = Instantiate(enemy2);
+            newDiffEnemy.transform.position = position;
+            newDiffEnemy.GetComponent<Enemy>().SetTarget(player);
+        }
     }
 
     //Función para determinar la posición donde apareceran los enemigos de forma aleatoria y siempre fuera de la pantalla
