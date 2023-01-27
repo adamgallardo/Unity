@@ -10,7 +10,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float spawnerTimer;
 
     float timer;
-    float totaltime;
+    public float totaltime;
     [SerializeField] Vector2 spawnArea;
     [SerializeField] GameObject player;
     [SerializeField] GameObject enemy2;
@@ -40,6 +40,8 @@ public class EnemySpawner : MonoBehaviour
         newEnemy.GetComponent<Enemy>().SetTarget(player);
         if (timerForEnemy2 < totaltime)
         {
+            position = RandomPosition();
+            position += player.transform.position;
             GameObject newDiffEnemy = Instantiate(enemy2);
             newDiffEnemy.transform.position = position;
             newDiffEnemy.GetComponent<Enemy>().SetTarget(player);

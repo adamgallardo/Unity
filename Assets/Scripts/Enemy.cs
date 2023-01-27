@@ -60,6 +60,7 @@ public class Enemy : MonoBehaviour
         {
             targetGameObject.GetComponent<XPManager>().GainXP(xpDrop);
             Destroy(gameObject);
+            GetComponent<DropOnDeath>().CheckDrop();
         }
     }
 }
