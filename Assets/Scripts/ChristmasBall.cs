@@ -4,11 +4,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ChristmasBall : MonoBehaviour
+public class ChristmasBall : WeaponAttacks
 {
-    [SerializeField] float cooldown;
-    float timer;
-
     [SerializeField] GameObject ball;
 
     PlayerMovement playerMove;
@@ -17,23 +14,12 @@ public class ChristmasBall : MonoBehaviour
     {
         playerMove = GetComponentInParent<PlayerMovement>();
     }
-
-    private void Update()
-    {
-        if (timer < cooldown)
-        {
-            timer += Time.deltaTime;
-            return;
-        }
-
-        timer = 0;
-        ThrowBall();
-    }
-
-    private void ThrowBall()
+    public override void Attack()
     {
         GameObject thrownBall = Instantiate(ball);
         thrownBall.transform.position = transform.position;
+        FlyingBall flyingBall = thrownBall.GetComponent<FlyingBall>();
         thrownBall.GetComponent<FlyingBall>().SetDirection(playerMove.lastHorizontal, 0f);
+        flyingBall.damage = weaponStats.damage;
     }
 }

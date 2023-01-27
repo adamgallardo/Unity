@@ -6,7 +6,7 @@ public class FlyingBall : MonoBehaviour
 {
     Vector3 direction;
     [SerializeField] float speed;
-    [SerializeField] int damage = 1;
+    public int damage;
     public void SetDirection(float dir_x, float dir_y)
     {
         direction = new Vector3(dir_x, dir_y);

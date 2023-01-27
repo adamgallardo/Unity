@@ -150,6 +150,7 @@ MonoBehaviour:
   speed: 1
   health: 1
   damage: 1
+  xpDrop: 10
 --- !u!114 &-7733679048550500335
 MonoBehaviour:
   m_ObjectHideFlags: 0
