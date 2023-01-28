@@ -7,10 +7,12 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] Transform weaponObjectsContainer;
 
     [SerializeField] WeaponData startingWeapon;
+    [SerializeField] WeaponData unlockedWeapon1;
 
     public void Start()
     {
         AddWeapon(startingWeapon);
+        AddWeapon(unlockedWeapon1);
     }
 
     public void AddWeapon(WeaponData weaponData)

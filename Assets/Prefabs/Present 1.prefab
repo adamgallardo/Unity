@@ -44,7 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30ed5a34adce07d4d9d8972445665958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 3
   present: {fileID: 6922670586903735872, guid: 69d671089d8037e498218e6ba61eb53a, type: 3}
   spawnArea: {x: 3, y: 3}
   player: {fileID: 0}
+  cooldown: 3
+  damage: 3

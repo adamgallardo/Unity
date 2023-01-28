@@ -4,13 +4,33 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Present : WeaponAttacks
+public class Present : MonoBehaviour
 {
-
+    [SerializeField] float cooldown = 2;
+    float timer;
     [SerializeField] GameObject present;
     [SerializeField] Vector2 spawnArea;
     [SerializeField] GameObject player;
 
+    void Update()
+    {
+        if (timer < cooldown)
+        {
+            timer += Time.deltaTime;
+            return;
+        }
+
+        timer = 0;
+        ThrowPresent();
+    }
+
+    private void ThrowPresent()
+    {
+        Vector3 position = RandomPosition();
+        position += player.transform.position;
+        GameObject ThrownPresent = Instantiate(present);
+        ThrownPresent.transform.position = position;
+    }
     private Vector3 RandomPosition()
     {
         Vector3 position = new Vector3();
@@ -31,15 +51,5 @@ public class Present : WeaponAttacks
         position.z = 0;
 
         return position;
-    }
-
-    public override void Attack()
-    {
-        Vector3 position = RandomPosition();
-        position += player.transform.position;
-        GameObject ThrownPresent = Instantiate(present);
-        Explosion explosion = ThrownPresent.GetComponent<Explosion>();
-        ThrownPresent.transform.position = position;
-        explosion.damage = weaponStats.damage;
     }
 }
